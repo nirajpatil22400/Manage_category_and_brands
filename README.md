@@ -65,3 +65,11 @@
 
 - The Angular client automatically communicates with the backend API to handle all CRUD operations.
 
+### Follow-
+
+#### 1. View Categories (Read) 🧐
+
+- The main interface is the "Manage Category" page, which allows users to view, filter, and page through existing categories.
+
+  ![image alt] ()
+
