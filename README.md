@@ -10,31 +10,33 @@
  - Purpose: To demonstrate professional development using a modern, type-safe stack.
  
  - 🛠️ Technical Stack & Architectural Specifics## Frontend Technologies (Client - Angular)
- - 
+   
  - Framework: Angular (Component-based SPA architecture).
- - 
+   
  - Language: TypeScript (Ensures static typing and robust code quality).
- - 
+   
  - UI Components: Angular Material (Professional, high-quality UI components).
- - 
+   
  - Styling: Tailwind CSS (Utility-first framework for rapid, responsive design).
- - 
+   
  - Preprocessor: Sass (SCSS) (Used for modular and advanced styling, confirmed by custom-theme.scss inclusion).
- - 
+   
  - CLI: Angular CLI v20.3.6 (Manages development, build, and testing).## Backend Technologies (Server)
- - 
+   
  - Runtime: Node.js (Asynchronous, event-driven architecture).
- - 
+   
  - Framework: Express.js (Minimalist framework for API routing).
- - 
+   
  - Database: MongoDB (Flexible NoSQL document database).
- - 
+   
  - ORM/ODM: Mongoose (Assumed layer for data modeling and validation).
  
- ## Key Functionality: RESTful EndpointsResourceOperationHTTP MethodEndpoint (Example)Category/BrandCreatePOST/api/categoriesCategory/BrandRead AllGET/api/brandsCategory/BrandRead By IDGET/api/categories/:idCategory/BrandUpdatePUT/api/brands/:idCategory/BrandDeleteDELETE/api/categories/:id
+ ## Key Functionality: 
+ 
+ - RESTful EndpointsResourceOperationHTTP MethodEndpoint (Example)Category/BrandCreatePOST/api/categoriesCategory/BrandRead AllGET/api/brandsCategory/BrandRead By IDGET/api/categories/:idCategory/BrandUpdatePUT/api/brands/:idCategory/BrandDeleteDELETE/api/categories/:id
  
  - ⚙️ Installation and Setup Guide## PrerequisitesNode.js (v18.x or higher)npm (Node Package Manager)MongoDB (A running instance)Angular CLI (npm install -g @angular/cli)
- - 
+   
 ## Step 1: Clone the RepositoryBashgit clone <your-repository-url>
 
 - cd <your-repository-name>
@@ -50,8 +52,8 @@
 ## Step 3: Frontend Setup (Client)Navigate to the project root:Bashcd ..
 
 - Install dependencies:Bashnpm install
-- 
-▶️ Running the ApplicationThe API and the client must be run in two separate terminal windows.## Step 1: Start the Backend API ServerTerminal 1 (in server/ directory):Bashnpm start
+  
+- ▶️ Running the ApplicationThe API and the client must be run in two separate terminal windows.## Step 1: Start the Backend API ServerTerminal 1 (in server/ directory):Bashnpm start
 
 # Server starts on http://localhost:3000/
 
