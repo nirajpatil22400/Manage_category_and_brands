@@ -1,21 +1,29 @@
-This project is a sophisticated, full-stack solution for managing Inventory Categories and Brands. It delivers a complete CRUD (Create, Read, Update, Delete) management interface, architected with a strict adherence to RESTful API principles.The system is structured as a Single Page Application (SPA), utilizing Angular for a dynamic and responsive user experience. The backend is a robust Node.js/Express.js API, and data persistence is handled by the flexible, document-based MongoDB.Key Functionality: RESTful EndpointsThe application exposes dedicated, resource-based endpoints for both Categories and Brands.OperationResourceHTTP MethodEndpoint (Example)DescriptionCreateCategory / BrandPOST/api/categoriesAdds a new entity.Read AllCategory / BrandGET/api/brandsRetrieves a list of all entities.Read By IDCategory / BrandGET/api/categories/:idFetches a single entity by its unique ID.UpdateCategory / BrandPUT/api/brands/:idFully modifies an existing entity.DeleteCategory / BrandDELETE/api/categories/:idPermanently removes an entity.🛠️ Technical Stack & Architectural SpecificsThis project employs a modern, high-performance technology stack, leveraging TypeScript across both the client and server for enhanced type safety, maintainability, and code quality.Frontend Technologies (Client - Angular)Key AspectTechnologyTechnical ExpectationVerification in Project FilesFrameworkAngularComponent-based SPA architecture and declarative data binding.@angular/core, @angular/routerLanguageTypeScriptStrongly-typed superset of JavaScript.typescript, tsconfig.app.jsonUI ComponentsAngular MaterialHigh-quality, accessible UI components following Material Design.@angular/material, @angular/cdkUtility StylingTailwind CSSUtility-first CSS for rapid development and custom, responsive layouts.tailwindcss, @tailwindcss/postcssPreprocessorSass (SCSS)Modular, powerful CSS extension for complex styling.src/custom-theme.scss in angular.jsonCLI VersionAngular CLI v20.3.6Manages project builds, serving, and scaffolding."@angular/cli": "^20.3.6"Backend Technologies (Server - Node.js, Express.js, MongoDB)Key AspectTechnologyTechnical ExpectationRuntimeNode.jsAsynchronous, event-driven runtime environment for server-side logic.FrameworkExpress.jsMinimalist and flexible framework for defining RESTful routes and middleware.DatabaseMongoDBNoSQL document database, offering high flexibility and scalability for data models.ORM/ODMMongooseProvides object data modeling for MongoDB, ensuring data structure and validation (Assumed).⚙️ Installation and Setup GuidePrerequisitesEnsure the following tools are installed and accessible on your development machine:Node.js (v18.x or higher recommended)npm (Node Package Manager)MongoDB (A running instance, either local or cloud-hosted)Angular CLI (Install globally: npm install -g @angular/cli)Step 1: Clone the RepositoryClone the project source code using Git:Bashgit clone <your-repository-url>
+E-Commerce Inventory CRUD Management System🚀 Project OverviewThis is a Full-Stack Application designed for managing Inventory Categories and Brands.
+It implements complete CRUD (Create, Read, Update, Delete) functionality.
+The architecture is a Single Page Application (SPA) using Angular and a RESTful API backend.
+Purpose: To demonstrate professional development using a modern, type-safe stack.
+🛠️ Technical Stack & Architectural SpecificsFrontend Technologies (Client - Angular)Framework: Angular (Component-based SPA architecture).
+Language: TypeScript (Ensures static typing and robust code).
+UI Components: Angular Material (Professional UI components).
+Styling: Tailwind CSS (Utility-first framework for rapid, responsive design).
+Preprocessor: Sass (SCSS) (Used for modular and advanced styling, confirmed by custom-theme.scss inclusion).
+CLI: Angular CLI v20.3.6 (Manages development, build, and testing processes).
+Backend Technologies (Server)Runtime: Node.js (Asynchronous, event-driven architecture).
+Framework: Express.js (Minimalist framework for API routing).
+Database: MongoDB (Flexible NoSQL document database).
+ORM/ODM: Mongoose (Assumed layer for data modeling and validation).
+Key Functionality: RESTful EndpointsResourceOperationHTTP MethodEndpoint (Example)Category/BrandCreatePOST/api/categoriesCategory/BrandRead AllGET/api/brandsCategory/BrandRead By IDGET/api/categories/:idCategory/BrandUpdatePUT/api/brands/:idCategory/BrandDeleteDELETE/api/categories/:id⚙️ Installation and Setup GuidePrerequisitesNode.js (v18.x or higher)npm (Node Package Manager)MongoDB (A running instance)Angular CLI (npm install -g @angular/cli)
+Step 1: Clone the RepositoryBashgit clone <your-repository-url>
 cd <your-repository-name>
-Step 2: Backend Configuration and Setup (Server)Navigate to the server directory and install the necessary dependencies.Bash# Navigate to your server folder (e.g., 'server')
-cd server
-npm install
-Database Configuration (.env file):Create a file named .env in the server/ directory.Add your MongoDB connection string and the desired API port:Code snippet# Example: Local MongoDB connection
-MONGO_URI="mongodb://localhost:27017/inventory_crud_db"
-
-# API Server Port
+Step 2: Backend Setup (Server)Navigate to the server directory:Bashcd server
+Install dependencies:Bashnpm install
+Configuration (.env): Create a .env file with the following:Code snippetMONGO_URI="mongodb://localhost:27017/inventory_crud_db"
 PORT=3000
-Step 3: Frontend Configuration and Setup (Client)Navigate back to the project root (where package.json and angular.json reside) and install the client dependencies.Bash# Assuming client code is in the root directory
-cd .. 
-npm install
-▶️ Running the ApplicationThe application requires two separate processes to run simultaneously: the Backend API and the Frontend Client.Step 1: Start the Backend API ServerOpen a new terminal window, navigate to the server/ directory, and execute the start command:Bash# Terminal 1 (in server directory)
-npm start
-# The server will confirm connection to MongoDB and typically listen on: http://localhost:3000/
-Step 2: Start the Frontend Angular ClientOpen a second terminal window, navigate to the project root, and launch the Angular development server:Bash# Terminal 2 (in project root/client directory)
-ng serve --open
-# The client will compile (including Tailwind and Sass) and open in your browser.
-# Application will be accessible at: http://localhost:4200/
-The Angular client (http://localhost:4200/) will automatically proxy/connect to the running Express API (http://localhost:3000/) to facilitate all Category and Brand management operations.
+Step 3: Frontend Setup (Client)Navigate to the project root (where package.json is located):Bashcd ..
+Install dependencies:Bashnpm install
+▶️ Running the ApplicationThe API and the client must be run in separate terminal windows.
+Step 1: Start the Backend API ServerTerminal 1 (in server/):Bashnpm start
+# Server starts on http://localhost:3000/
+Step 2: Start the Frontend Angular ClientTerminal 2 (in project root):Bashng serve --open
+# Client starts on http://localhost:4200/
+The Angular client will automatically communicate with the backend API to handle all CRUD operations.
