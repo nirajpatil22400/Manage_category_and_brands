@@ -89,7 +89,7 @@
 
   <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/036a0c60-3962-480a-96ee-28cb6265ec87" />
 
-  
+  <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/f2b6cad0-2a77-4a14-99a8-de7e38f024ff" />
 
 ### 4. Delete Category (Delete) 🗑️
 
