@@ -71,5 +71,5 @@
 
 - The main interface is the "Manage Category" page, which allows users to view, filter, and page through existing categories.
 
-  ![image alt](https://github.com/nirajpatil22400/Manage_category_and_brands/blob/ec7f29d2ccfa9cda8cd911c980ec007b3b4c962a/image.png?raw=true)
+  <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/7d8192a9-fb58-444b-bd89-d7c85e686d61" />
 
