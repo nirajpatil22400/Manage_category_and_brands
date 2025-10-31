@@ -41,7 +41,7 @@
    
 ## Step 1: Clone the RepositoryBashgit clone <your-repository-url>
 
-- cd <your-repository-name>
+- cd your-repository-name
 
 ## Step 2: Backend Setup (Server)Navigate to the server directory:Bashcd server 
 
