@@ -65,7 +65,7 @@
 
 - The Angular client automatically communicates with the backend API to handle all CRUD operations.
 
-### Follow-
+### Category Follow-
 
 #### 1. View Categories (Read) 🧐
 
@@ -98,4 +98,28 @@
    <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/9f8e243f-2ec6-4034-af4e-35d707c20ef4" />
 
    <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/bfc8c4e6-8ff7-467c-a210-6a7589e6e7c2" />
+
+
+### Brand Follow-
+
+#### 1. Initial View and Existing Data (Read) 🧐
+     
+   - The initial "Manage Brands" view displays existing brands in a table format and shows the pagination options.
+ 
+     <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/5a618439-664c-47ea-9d60-0f46f96c16f1" />
+
+#### Add a New Brand (Create) ➕
+
+   - This process demonstrates navigating to the creation page, submitting a new brand, and confirming the successful addition.
+
+     <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/db459ac7-5b50-44ec-99ba-829ac025f42f" />
+
+        - Navigation:	User clicks the "Add New Brand" button, leading to the "Add New Category" page (note the generic heading, but the context is brand creation).
+          <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/fbbdacec-7cd8-44bf-86c9-a6bbc9534d02" />
+        - Input:	The user enters "Apple" into the Name field.
+          <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/b96a3ab6-a4aa-47fc-bf7c-748d2e029c6f" />
+        - Confirmation:	After clicking Add, a popup appears confirming "Brand added".
+          <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/b1b14ab9-dfb5-43a9-9f4a-b2431f58daa5" />
+        - Verification:	The user is redirected back to the "Manage Brands" table, and Apple now appears as the 5th brand. The pagination changes to 1 - 5 of 5.
+     
 
