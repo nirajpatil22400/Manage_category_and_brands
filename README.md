@@ -73,3 +73,27 @@
 
   <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/7d8192a9-fb58-444b-bd89-d7c85e686d61" />
 
+### 2. Add New Category (Create) ➕
+
+- Users can add new categories by navigating to the "Add New Category" page via the "Add New Create" button.
+
+  <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/23426798-3f6a-47c7-b430-98f37a7a06ed" />
+
+### 3. Update Category (Update) ✏️
+
+- Existing categories can be modified by clicking the "Edit" button next to the category name in the table.
+
+  <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/d5874108-b948-4f77-90e5-f01ade7cb8fd" />
+
+  <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/036a0c60-3962-480a-96ee-28cb6265ec87" />
+
+  
+
+### 4. Delete Category (Delete) 🗑️
+
+- Users can remove a category by clicking the "Delete" button next to the desired item.
+
+   <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/9f8e243f-2ec6-4034-af4e-35d707c20ef4" />
+
+   <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/bfc8c4e6-8ff7-467c-a210-6a7589e6e7c2" />
+
