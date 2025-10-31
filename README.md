@@ -57,11 +57,11 @@
   
 - ▶️ Running the ApplicationThe API and the client must be run in two separate terminal windows.## Step 1: Start the Backend API ServerTerminal 1 (in server/ directory):Bashnpm start
 
-# Server starts on http://localhost:3000/
+-Server starts on http://localhost:3000/
 
 ## Step 2: Start the Frontend Angular ClientTerminal 2 (in project root/client directory):Bashng serve --open
 
-# Client starts on http://localhost:4200/
+- Client starts on http://localhost:4200/
 
 - The Angular client automatically communicates with the backend API to handle all CRUD operations.
 
