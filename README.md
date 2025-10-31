@@ -39,11 +39,11 @@
  
  - ⚙️ Installation and Setup Guide## PrerequisitesNode.js (v18.x or higher)npm (Node Package Manager)MongoDB (A running instance)Angular CLI (npm install -g @angular/cli)
    
-## Step 1: Clone the RepositoryBashgit clone <your-repository-url>
+#### Step 1: Clone the RepositoryBashgit clone <your-repository-url>
 
 - cd your-repository-name
 
-## Step 2: Backend Setup (Server)Navigate to the server directory:Bashcd server 
+#### Step 2: Backend Setup (Server)Navigate to the server directory:Bashcd server 
 
 - Install dependencies:Bashnpm install
 
@@ -51,7 +51,7 @@
 
 - PORT=3000
 
-## Step 3: Frontend Setup (Client)Navigate to the project root:Bashcd ..
+#### Step 3: Frontend Setup (Client)Navigate to the project root:Bashcd ..
 
 - Install dependencies:Bashnpm install
   
@@ -59,7 +59,7 @@
 
 -Server starts on http://localhost:3000/
 
-## Step 2: Start the Frontend Angular ClientTerminal 2 (in project root/client directory):Bashng serve --open
+#### Step 4: Start the Frontend Angular ClientTerminal 2 (in project root/client directory):Bashng serve --open
 
 - Client starts on http://localhost:4200/
 
