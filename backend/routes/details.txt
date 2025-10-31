@@ -1,0 +1,3 @@
+all api routes will be here
+like -
+      category , product , login etc
