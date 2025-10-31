@@ -121,5 +121,16 @@
         - Confirmation:	After clicking Add, a popup appears confirming "Brand added".
           <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/b1b14ab9-dfb5-43a9-9f4a-b2431f58daa5" />
         - Verification:	The user is redirected back to the "Manage Brands" table, and Apple now appears as the 5th brand. The pagination changes to 1 - 5 of 5.
+    
+#### 3. Testing Pagination Features (Read) 🔢
+
+  - The application supports viewing a larger dataset and customizing the number of items shown per page.
+    <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/21923102-0733-4916-b006-3a1d6a15d327" />
+  - Pagination Options :	More brands have been added, and the total count is now 18. The user opens the "Items per page" dropdown, which shows options like 5, 10, 25, and 100.
+  - Default View (10 items) :	The view is now set to 10 items per page, showing the first 1 - 10 of 18 brands.
+    <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/425dcab3-df30-481b-9f5b-c01c566649ea" />
+  - Navigate to Next Page (5 items)	: The user changes Items per page to 5. The view shows the first page: 1 - 5 of 18.
+    <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/2e56b0d2-b62e-46db-a1a5-cccc7d519f8c" />
+  - Second Page	The user clicks the Next Page arrow (or button, implicitly), advancing the view to the second page of results: 6 - 10 of 18.
      
 
