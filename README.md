@@ -1,4 +1,5 @@
-E-Commerce Inventory CRUD Management System🚀 Project OverviewThis is a Full-Stack Application designed for managing Inventory Categories and Brands.
+E-Commerce Inventory CRUD Management System
+🚀 Project OverviewThis is a Full-Stack Application designed for managing Inventory Categories and Brands.
 It implements complete CRUD (Create, Read, Update, Delete) functionality.
 The architecture is a Single Page Application (SPA) using Angular and a RESTful API backend.
 Purpose: To demonstrate professional development using a modern, type-safe stack.
