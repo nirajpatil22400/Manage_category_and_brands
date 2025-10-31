@@ -148,5 +148,15 @@
          <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/0b0333d0-ea34-42ac-81aa-7b61f95318c6" />
     - 6. Verification	The user returns to the Manage Brands table. The brand name in the table is successfully updated to "SAMSUNG", confirming the edit operation.
          <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/581564b8-d2d5-40ab-9edd-34ddaeefb801" />
-     
+
+#### 5. Filter and Search Brands 🔎
+
+ - The "Manage Brands" page includes a filter bar that allows users to search the table data based on brand name or ID.
+   
+   - 1. Identify Filter Bar	The filter bar, labeled Filter, is highlighted at the top of the brand list. The table shows a large list of items (1-5 of 18) before filtering.
+        <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/45517fad-c370-4405-a8a0-8b9190199452" />
+   - 2. Apply Search Term	The user enters the search term "Apple" into the filter bar.
+        <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/db2a77d5-746c-441f-a354-f0f01369021b" />
+   - 3. Filter Results	The table instantly filters the results, showing only the records that match the term. The table now only displays the "Apple" brand, and the pagination correctly updates to 1 - 1 of 1 item.
+        <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/3293510a-6735-4712-a2a6-4e6d709d4c42" />
 
