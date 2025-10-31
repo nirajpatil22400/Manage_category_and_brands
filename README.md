@@ -115,38 +115,63 @@
      <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/db459ac7-5b50-44ec-99ba-829ac025f42f" />
 
         - Navigation:	User clicks the "Add New Brand" button, leading to the "Add New Category" page (note the generic heading, but the context is brand creation).
+          
           <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/fbbdacec-7cd8-44bf-86c9-a6bbc9534d02" />
+          
         - Input:	The user enters "Apple" into the Name field.
+        
           <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/b96a3ab6-a4aa-47fc-bf7c-748d2e029c6f" />
+          
         - Confirmation:	After clicking Add, a popup appears confirming "Brand added".
+          
           <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/b1b14ab9-dfb5-43a9-9f4a-b2431f58daa5" />
+          
         - Verification:	The user is redirected back to the "Manage Brands" table, and Apple now appears as the 5th brand. The pagination changes to 1 - 5 of 5.
     
 #### 3. Testing Pagination Features (Read) 🔢
 
   - The application supports viewing a larger dataset and customizing the number of items shown per page.
+    
     <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/21923102-0733-4916-b006-3a1d6a15d327" />
+    
   - Pagination Options :	More brands have been added, and the total count is now 18. The user opens the "Items per page" dropdown, which shows options like 5, 10, 25, and 100.
+    
   - Default View (10 items) :	The view is now set to 10 items per page, showing the first 1 - 10 of 18 brands.
+    
     <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/425dcab3-df30-481b-9f5b-c01c566649ea" />
+    
   - Navigate to Next Page (5 items)	: The user changes Items per page to 5. The view shows the first page: 1 - 5 of 18.
+    
     <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/2e56b0d2-b62e-46db-a1a5-cccc7d519f8c" />
+    
   - Second Page	The user clicks the Next Page arrow (or button, implicitly), advancing the view to the second page of results: 6 - 10 of 18.
 
 #### 4. Update an Existing Brand (Update) ✏️
 
   - This section details the steps for modifying the name of an existing brand.
+    
     - 1. Initiate Edit	From the Manage Brands table, the user clicks the Edit button next to the "Samsung" brand (which is currently lowercase/title case).
+         
          <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/304f4d32-95bd-45f1-b967-ce7fb7e72f32" />
+         
     - 2. Open Update Form	The user is taken to the "Update Brand" page. The input field is pre-filled with the current brand name, "Samsung"
+         
          <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/73d29eca-2003-49b6-83a5-e55786f709cc" />
+         
     - 3. Modify Name	The user changes the name in the input field from "Samsung" to the new value, "SAMSUNG" (uppercase).
+         
          <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/d2332820-d8b2-4ebe-b7a7-3fbe68cd96a3" />
+         
     - 4. Submit Update	The user clicks the Update button.
+         
          <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/d200eb4b-5b30-4edd-9a6e-9a9d6caaa02b" />
+         
     - 5. Confirmation	A success message, "Brand updated.", appears in a popup dialog.
+         
          <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/0b0333d0-ea34-42ac-81aa-7b61f95318c6" />
+         
     - 6. Verification	The user returns to the Manage Brands table. The brand name in the table is successfully updated to "SAMSUNG", confirming the edit operation.
+         
          <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/581564b8-d2d5-40ab-9edd-34ddaeefb801" />
 
 #### 5. Filter and Search Brands 🔎
@@ -154,9 +179,31 @@
  - The "Manage Brands" page includes a filter bar that allows users to search the table data based on brand name or ID.
    
    - 1. Identify Filter Bar	The filter bar, labeled Filter, is highlighted at the top of the brand list. The table shows a large list of items (1-5 of 18) before filtering.
+        
         <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/45517fad-c370-4405-a8a0-8b9190199452" />
+        
    - 2. Apply Search Term	The user enters the search term "Apple" into the filter bar.
+        
         <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/db2a77d5-746c-441f-a354-f0f01369021b" />
+        
    - 3. Filter Results	The table instantly filters the results, showing only the records that match the term. The table now only displays the "Apple" brand, and the pagination correctly updates to 1 - 1 of 1 item.
+        
         <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/3293510a-6735-4712-a2a6-4e6d709d4c42" />
 
+#### 6. Delete a Brand (Delete) 🗑️
+
+ - This section details the steps required to permanently remove a brand from the application's database.
+   
+  - 1. Initiate Deletion	The user locates the brand they wish to delete (e.g., MI) in the Manage Brands table and clicks the corresponding Delete button.
+       
+       <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/20c51027-13fe-4317-819e-e1e2f19e7e60" />
+       
+  - 2. Confirmation	A confirmation dialog appears, displaying the message: "Brand Deleted".
+       
+       <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/31378ad9-fc01-4910-8fb7-6e45e96a853c" />
+      
+  - 3. Verification of Removal	The brand table automatically refreshes. The deleted brand (MI) is no longer present in the list.
+       
+       <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/6d181503-0d54-4c86-be0c-4bae154ae3cf" />
+      
+  - 4. Data Count Update	The pagination count updates from 1 - 5 of 18 (as implied before deletion) to 1 - 5 of 17, confirming that one total record was successfully removed from the system.
