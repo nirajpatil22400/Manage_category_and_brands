@@ -79,6 +79,8 @@
 
   <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/23426798-3f6a-47c7-b430-98f37a7a06ed" />
 
+  <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/4aad3201-f3a4-42d2-ab41-faf948b7143e" />
+
 ### 3. Update Category (Update) ✏️
 
 - Existing categories can be modified by clicking the "Edit" button next to the category name in the table.
