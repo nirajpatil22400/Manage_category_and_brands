@@ -132,5 +132,21 @@
   - Navigate to Next Page (5 items)	: The user changes Items per page to 5. The view shows the first page: 1 - 5 of 18.
     <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/2e56b0d2-b62e-46db-a1a5-cccc7d519f8c" />
   - Second Page	The user clicks the Next Page arrow (or button, implicitly), advancing the view to the second page of results: 6 - 10 of 18.
+
+#### 4. Update an Existing Brand (Update) ✏️
+
+  - This section details the steps for modifying the name of an existing brand.
+    - 1. Initiate Edit	From the Manage Brands table, the user clicks the Edit button next to the "Samsung" brand (which is currently lowercase/title case).
+         <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/304f4d32-95bd-45f1-b967-ce7fb7e72f32" />
+    - 2. Open Update Form	The user is taken to the "Update Brand" page. The input field is pre-filled with the current brand name, "Samsung"
+         <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/73d29eca-2003-49b6-83a5-e55786f709cc" />
+    - 3. Modify Name	The user changes the name in the input field from "Samsung" to the new value, "SAMSUNG" (uppercase).
+         <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/d2332820-d8b2-4ebe-b7a7-3fbe68cd96a3" />
+    - 4. Submit Update	The user clicks the Update button.
+         <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/d200eb4b-5b30-4edd-9a6e-9a9d6caaa02b" />
+    - 5. Confirmation	A success message, "Brand updated.", appears in a popup dialog.
+         <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/0b0333d0-ea34-42ac-81aa-7b61f95318c6" />
+    - 6. Verification	The user returns to the Manage Brands table. The brand name in the table is successfully updated to "SAMSUNG", confirming the edit operation.
+         <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/581564b8-d2d5-40ab-9edd-34ddaeefb801" />
      
 
