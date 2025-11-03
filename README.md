@@ -207,3 +207,4 @@
        <img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/6d181503-0d54-4c86-be0c-4bae154ae3cf" />
       
   - 4. Data Count Update	The pagination count updates from 1 - 5 of 18 (as implied before deletion) to 1 - 5 of 17, confirming that one total record was successfully removed from the system.
+# Inventory-management
